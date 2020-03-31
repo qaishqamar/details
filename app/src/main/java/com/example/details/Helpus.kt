@@ -20,7 +20,7 @@ class Helpus : AppCompatActivity() {
             Log.d("Main","Try to show photo selecter")
             val intent=Intent(Intent.ACTION_PICK)
             intent.type="image/*"
-            val email=findViewById<EditText>(R.id.email_et_help)
+            val email=findViewById<EditText>(R.id.head_et_help)
             startActivityForResult(intent,0)
         }
         submit_btn_help.setOnClickListener {
